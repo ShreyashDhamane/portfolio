@@ -17,6 +17,16 @@ const Projects = () => {
       onMouseLeave={() => dispatch(actions.setCursorType("default"))}
     >
       <div className="small_title">
+        <div className="img_wrapper">
+          <MotionDiv
+            from={{ transform: `translateY(100%)` }}
+            to={{ transform: `translateY(0)` }}
+            duration={600}
+            scrollDiv={true}
+          >
+            <img src={snowFlake} alt="snow-flake" />
+          </MotionDiv>
+        </div>
         <div className="title_container">
           <div className="text_wrapper">
             <MotionDiv
@@ -26,10 +36,10 @@ const Projects = () => {
               scrollDiv={true}
               className="text"
             >
-              Projects and
+              Projects
             </MotionDiv>
           </div>
-          <div className="text_wrapper">
+          {/* <div className="text_wrapper">
             <MotionDiv
               from={{ transform: `translateY(-100%)` }}
               to={{ transform: `translateY(0)` }}
@@ -37,9 +47,9 @@ const Projects = () => {
               scrollDiv={true}
               className="text"
             >
-              Research Papers
+              & Papers
             </MotionDiv>
-          </div>
+          </div> */}
         </div>
         <div className="img_wrapper">
           <MotionDiv

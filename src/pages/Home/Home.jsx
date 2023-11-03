@@ -3,6 +3,7 @@ import { useLocation, useSearchParams } from "react-router-dom";
 import "./Home.scss";
 import HeroSection from "../../components/HeroSection/HeroSection";
 import Projects from "../../components/Projects/Projects";
+import Projects2 from "../../components/Projects2/Projects";
 import Experience from "../../components/Experience/Experience";
 import Footer from "../../components/Footer/Footer";
 import ContactRotator from "../../components/ContactRotator/ContactRotator";
@@ -57,20 +58,24 @@ const Home = () => {
           <Experience />
         </div>
 
-        <div className="little_flex">
+        {/* <div className="little_flex">
           <FlexSection />
-        </div>
+        </div> */}
 
         <div id="project">
           <Projects />
         </div>
 
-        <div className="little_flex">
+        {/* <div className="little_flex">
           <FlexSection2 />
+        </div> */}
+
+        <div id="extracurricular">
+          <ExtraActivities />
         </div>
 
-        <div id="experience">
-          <ExtraActivities />
+        <div id="project2">
+          <Projects2 />
         </div>
 
         <div

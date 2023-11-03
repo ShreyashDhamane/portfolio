@@ -3,60 +3,68 @@ import buycepsFav from "/public/assets/images/buycepsFav.png";
 import buyceps from "/public/assets/images/Buyceps.png";
 import studypaq from "/public/assets/images/studypaq.png";
 import studypaq2 from "/public/assets/images/studypaq2.png";
-import vedika from "/public/assets/images/vedika.png";
-import vedika1 from "/public/assets/images/vedika1.png";
-import vedika2 from "/public/assets/images/vedika2.png";
+import embodied from "/public/assets/images/embodied.png";
+import emotional from "/public/assets/images/eqoutient.png";
+import attention_span from "/public/assets/images/attention_span.png";
+import under_review from "/public/assets/images/under_review.png";
 
 export const experiences = [
-    {
-        startDate: 'May 2023',
-        endDate: 'Present',
-        company: 'Vedika.ai',
-        role: 'Frontend Developer',
-        type: 'Internship',
-        images: [
-            vedika,
-        ],
-        color: '#F5F5F5',
-        workList: [
-            'Leading the frontend team at vedika.ai',
-            'Responsible for developing the MVP from scratch. Architecting the frontend according to the design requirements',
-            'Leveraged knowledge of Next.js, Sass, Redux'
-        ]
-    },
-    {
-        startDate: 'Dec 2022',
-        endDate: 'May 2023',
-        company: 'Buyceps',
-        role: 'Frontend Developer',
-        type: 'Internship',
-        favIcon: buycepsFav,
-        color: '#6a6a6a',
-        images: [
-            buyceps
-        ],
-        workList: [
-            'Responsible for optimizing SEO, and ensuring mobile and tablet responsiveness for our company website. Provided technical leadership and mentorship to junior developers',
-            'Implemented automated testing using Cypress for our Next.js website, resulting in reliable website performance',
-            'Used Technologies - Next.js, Cypress, styled-components, GraphQL, Tapfiliate, Algolia'
-        ]
-    },
-    {
-        startDate: 'Jun 2022',
-        endDate: 'Dec 2022',
-        company: 'StudyPaq',
-        type: 'Internship',
-        role: 'Frontend Developer',
-        favIcon: studypaqFav,
-        color: '#ecdab0',
-        images: [
-            studypaq
-        ],
-        workList: [
-            'Translated 100+ Figma frames into responsive Next.js code, delivering a timely and visually accurate web project',
-            'Led the development of a prototype that advanced our project to the final funding rounds',
-            'Collaborated with our partner to refine the prototype to meet their specific needs, resulting in a successful partnership with Learnit',
-            'Leveraged knowledge of Next.js, Sass, Redux, Responsive Web Design, Selenium'
-        ]
-    }
-]
+  {
+    startDate: "May 2023",
+    endDate: "Present",
+    company: "Emotional Qoutient",
+    role: "Research Project",
+    type: "Academic Project",
+    images: [emotional],
+    color: "#F5F5F5",
+    workList: [
+      "Developing a human-less self-checkout store that eliminates the checkout counters and product barcode scanning by using object detection, image change detection, and person reidentification.",
+      "Devised an AI-based cooking planner, staff schedule organizer, and sales data analysis application using Facebook’s Prophet, Google OR tools, and Flutter.",
+      "Created a comprehensive Point of Sale (POS) system for self-food ordering and staff usage using JavaScript, integrated thermal printers and Viva card terminals for seamless self-checkout experiences.",
+    ],
+  },
+  {
+    startDate: "Jun 2022",
+    endDate: "May 2023",
+    company: "Embodied Epistemology",
+    role: "Research Project",
+    type: "Academic Project",
+    favIcon: buycepsFav,
+    color: "#6a6a6a",
+    images: [embodied],
+    workList: [
+      "Engineered AI-based skin disease detection using Facebook’s Detectron, achieved 95%+ accuracy by training the model on Nvidia GPU systems. Deployed it on AWS Lambda and integrated it with the Flutter mobile app.",
+      "Implemented a Skin Type Indicator model utilizing Bauman Skin Type Indicator and ResNet-50’s resilient architecture and applied data engineering techniques to achieve over 88% accuracy.",
+      "Built a content-based recommendation system using Natural Language Processing, Skin Type, and Skin Disease Detection model to suggest suitable skin care products for treating specific skin conditions.",
+      "Led a team of 12 junior research interns, oversaw daily updates, resolved issues, performed project management, and provided regular updates to mentors.",
+    ],
+  },
+  {
+    startDate: "August 2022",
+    endDate: "November 2022",
+    company: "Attention Span of Autistic Children",
+    role: "Research Project",
+    type: "Academic Project",
+    favIcon: studypaqFav,
+    color: "#ecdab0",
+    images: [attention_span],
+    workList: [
+      "Improved systolic and diastolic blood pressure detection model's accuracy from 72% to 96% using Random Forest and data engineering techniques.",
+      "Optimized fall detection model accuracy to 93% for the R&D team’s hardware, aiding elderly individuals living alone. Integrated the model with the Raspberry Pi controller.",
+    ],
+  },
+  {
+    startDate: "September 2021",
+    endDate: "December 2021",
+    company: "Skin Type Indicator",
+    role: "Research project",
+    type: "Research Internship",
+    favIcon: studypaqFav,
+    color: "#ecdab0",
+    images: [under_review],
+    workList: [
+      "Integrated the website with Node.js backend, managed software packaging using Pascal and released updates on AWS.",
+      "Worked on batch scripting, CICD task creation on Atlassian, and user interface implementation using SCSS.",
+    ],
+  },
+];

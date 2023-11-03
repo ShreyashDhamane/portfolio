@@ -1,0 +1,56 @@
+@import "/public/assets/css/variables";
+
+.Projects_section {
+  padding-top: 2rem;
+  // padding-bottom: 8rem;
+  width: 100%;
+  --width: calc(var(--index) * 26);
+  --height: 40rem;
+  --width-vertical: calc(var(--index) * 20);
+  --height-vertical: 50rem;
+  --index: calc(1vw + 1vh);
+
+  .small_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+    gap: 4rem;
+
+    .title_container {
+      .text_wrapper {
+        overflow: hidden;
+        margin-bottom: 0.5rem;
+
+        .text {
+          text-align: left;
+          font-size: 2.6rem;
+          font-weight: 600;
+          margin: 0 auto;
+          width: 100%;
+          letter-spacing: 0.2rem;
+          text-align: center;
+          gap: 1.5rem;
+        }
+      }
+    }
+
+    .img_wrapper {
+      overflow: hidden;
+
+      img {
+        height: 3rem;
+        animation: rotate 10s linear infinite;
+
+        @keyframes rotate {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+      }
+    }
+  }
+}

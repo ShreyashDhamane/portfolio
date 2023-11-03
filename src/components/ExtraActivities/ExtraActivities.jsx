@@ -68,7 +68,7 @@ const ExtraActivities = () => {
           offsetBottom={0}
           reverse={false}
         >
-          <h2>Work Experience</h2>
+          <h2>Research Projects & Publications</h2>
         </MotionDiv>
       </div>
 
