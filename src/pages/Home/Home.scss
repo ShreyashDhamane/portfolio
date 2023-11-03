@@ -1,0 +1,41 @@
+@import "/public/assets/css/variables";
+
+.Home {
+  .main_section {
+    z-index: 9;
+    margin-bottom: 100vh;
+    position: relative;
+    background: $neutral-600;
+    padding-bottom: 10rem;
+
+    .bottom_rounded {
+      top: unset;
+      bottom: 0;
+      position: absolute;
+      transform: translateY(99%);
+      width: 100%;
+      height: 20vh;
+      overflow: hidden;
+
+      .rounded_div {
+        background: $neutral-600;
+        width: 150%;
+        height: 745%;
+        position: absolute;
+        border-radius: 50%;
+        z-index: 100;
+        transform: translate(-17%, -86.666%);
+      }
+    }
+  }
+
+  .little_flex {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    margin: 10rem 0;
+    height: 100vh;
+    min-height: max-content;
+    position: relative;
+  }
+}

@@ -1,0 +1,77 @@
+@import "/public/assets/css/variables";
+
+.marquee-container {
+  overflow-x: hidden !important;
+  display: flex !important;
+  flex-direction: row !important;
+  position: relative;
+  width: 100%;
+
+  &.b1 {
+    // background: $primary-red;
+  }
+
+  &:hover div {
+    animation-play-state: var(--pause-on-hover);
+  }
+
+  &:active div {
+    animation-play-state: var(--pause-on-click);
+  }
+
+  .marquee {
+    flex: 0 0 auto;
+    min-width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    animation: scroll var(--duration) linear infinite;
+    animation-direction: var(--direction);
+    transition: 0.4s ease;
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0%);
+        transition: 0.4s ease;
+      }
+      100% {
+        transform: translateX(-100%);
+        transition: 0.4s ease;
+      }
+    }
+  }
+}
+
+.Skills_marquee {
+  --index: calc(1vw + 1vh);
+  height: calc(var(--index) * 16);
+  font-size: calc(var(--index) * 2);
+  overflow: hidden !important;
+  position: relative;
+
+  .marquee_item {
+    padding: 1rem;
+    font-weight: 800;
+  }
+
+  .marquee_comp {
+    height: calc(var(--index) * 3.2);
+    width: 100%;
+    background: $neutral-500;
+    position: absolute;
+    top: calc(var(--index) * 4);
+    transform: rotate(-2deg);
+    z-index: -1;
+  }
+
+  .marquee1 {
+    margin-top: calc(var(--index) * 4);
+    transform: rotate(5deg);
+  }
+
+  .marquee2 {
+    margin-top: calc(var(--index) * 8);
+    transform: rotate(-2deg);
+  }
+}

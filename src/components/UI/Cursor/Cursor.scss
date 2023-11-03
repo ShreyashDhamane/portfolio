@@ -1,0 +1,54 @@
+@import "/public/assets/css/variables";
+
+.cursor_container {
+  position: fixed;
+  transform-origin: center;
+  pointer-events: none;
+  transition: 0.3s ease-out;
+  transition-property: width, height;
+  z-index: $z-cursor;
+
+  @media screen and (max-width: $break-point-mobile) {
+    display: none;
+  }
+
+  .cursor_link {
+    padding: 0.6rem;
+    border-radius: 50%;
+    transform: scale(0);
+    background: $neutral-000;
+    transition: all 0.3s ease-out;
+  }
+
+  .cursor_project {
+    border-radius: 50%;
+    transform: scale(0);
+    width: 9rem;
+    height: 9rem;
+    background: $neutral-000;
+    display: grid;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    place-items: center;
+    transition: all 0.3s ease-out;
+  }
+
+  .cursor_default {
+  }
+
+  &.hovered_project {
+    mix-blend-mode: exclusion;
+
+    .cursor_project {
+      transform: scale(1);
+    }
+  }
+
+  &.hovered_link {
+    mix-blend-mode: difference;
+
+    .cursor_link {
+      transform: scale(15);
+    }
+  }
+}

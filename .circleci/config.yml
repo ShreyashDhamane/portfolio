@@ -1,0 +1,27 @@
+version: "2.1"
+jobs:
+  up-portfolio:
+    docker:
+      - image: deadcoder11u2/ci-img
+    steps:
+      - checkout
+      - run: okteto context use https://cloud.okteto.com --token $OKTETO_TOKEN
+      - run: |
+          okteto deploy -n nomankhan3701 --build
+workflows:
+  build_and_test:
+    triggers:
+      - schedule:
+          cron: "0 0 * * *"
+          filters:
+            branches:
+              only: main
+    jobs:
+      - up-portfolio
+  deploy:
+    jobs:
+      - up-portfolio:
+          filters:
+            branches:
+              only:
+                - main

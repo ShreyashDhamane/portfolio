@@ -1,0 +1,25 @@
+.Container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+  .content {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-right: 17px; /* Adjust for scrollbar width */
+  }
+
+  .scrollbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 8px; /* Adjust the width of the scrollbar */
+    height: 100%;
+    background-color: #ddd;
+    opacity: 0; /* Hide the scrollbar by default */
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+  }
+}
