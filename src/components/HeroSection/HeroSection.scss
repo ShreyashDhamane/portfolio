@@ -52,11 +52,11 @@
     }
 
     .desc {
-      width: 40rem;
+      width: 45rem;
       text-align: center;
-      font-size: 1.8rem;
+      font-size: 2.2rem;
       line-height: 1.4;
-      font-weight: 600;
+      font-weight: 500;
 
       @media screen and (max-width: $break-point-tab-sm) {
         font-size: 1.6rem;

@@ -36,7 +36,7 @@ const Projects = () => {
               scrollDiv={true}
               className="text"
             >
-              Hackathons
+              Hackathon Wins
             </MotionDiv>
           </div>
           {/* <div className="text_wrapper">

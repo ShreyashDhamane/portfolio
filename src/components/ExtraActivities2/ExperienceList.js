@@ -4,7 +4,7 @@ import buyceps from "/public/assets/images/Buyceps.png";
 import studypaq from "/public/assets/images/studypaq.png";
 import studypaq2 from "/public/assets/images/studypaq2.png";
 import embodied from "/public/assets/images/embodied.png";
-import emotional from "/public/assets/images/eqoutient.png";
+import oculus from "/public/assets/images/oculus.png";
 import attention_span from "/public/assets/images/attention_span.png";
 import under_review from "/public/assets/images/under_review.png";
 
@@ -12,10 +12,10 @@ export const experiences = [
   {
     startDate: "May 2023",
     endDate: "Present",
-    company: "Emotional Qoutient",
-    role: "Research Project",
+    company: "Oculus SPIT",
+    role: "Technical Head",
     type: "Academic Project",
-    images: [emotional],
+    images: [oculus],
     color: "#F5F5F5",
     workList: [
       "Developing a human-less self-checkout store that eliminates the checkout counters and product barcode scanning by using object detection, image change detection, and person reidentification.",
@@ -26,8 +26,8 @@ export const experiences = [
   {
     startDate: "Jun 2022",
     endDate: "May 2023",
-    company: "Embodied Epistemology",
-    role: "Research Project",
+    company: "Enactus SPIT",
+    role: "Research and Development Team Lead",
     type: "Academic Project",
     favIcon: buycepsFav,
     color: "#6a6a6a",
@@ -42,8 +42,8 @@ export const experiences = [
   {
     startDate: "August 2022",
     endDate: "November 2022",
-    company: "Attention Span of Autistic Children",
-    role: "Research Project",
+    company: "Abhyudaya",
+    role: "Head of Volunteer Team",
     type: "Academic Project",
     favIcon: studypaqFav,
     color: "#ecdab0",

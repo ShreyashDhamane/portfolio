@@ -9,12 +9,12 @@ const HeroSection = ({ goToExperience }) => {
         <div className="greet">Hi 👋, I am</div>
         <div className="name">
           <h1>Shreyash</h1>
-          <h1>Dhamane</h1>
+          {/* <h1>Dhamane</h1> */}
         </div>
 
         <div className="desc">
-          A software developer who is curious about computer networks and
-          databases
+          A curious computer engineer passionate about innovation and
+          entrepreneurship.
         </div>
       </div>
     </div>

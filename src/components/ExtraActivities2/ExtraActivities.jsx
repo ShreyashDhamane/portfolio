@@ -45,7 +45,7 @@ const ExtraActivities = () => {
   }, [activeIndex]);
 
   const updateAccordianHeight = () => {
-    const contents = document.querySelectorAll(".content2");
+    const contents = document.querySelectorAll(".content3");
 
     contents.forEach((content, index) => {
       if (activeIndex === index) {
@@ -68,7 +68,7 @@ const ExtraActivities = () => {
           offsetBottom={0}
           reverse={false}
         >
-          <h2>Research Projects and Publications</h2>
+          <h2>Committee Work</h2>
         </MotionDiv>
       </div>
 
@@ -146,7 +146,7 @@ const ExtraActivities = () => {
                 </div>
               </div>
               <div className="content_wrapper">
-                <div className="content2">
+                <div className="content3">
                   <div className="role_info">
                     <div className="type">{experience.type}</div>
                     <div className="dot"></div>

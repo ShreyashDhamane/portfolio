@@ -12,6 +12,7 @@ import { useSelector } from "react-redux";
 import FlexSection from "../../components/FlexSection/FlexSection";
 import useScrollTrigger from "../../hooks/useScrollTrigger";
 import ExtraActivities from "../../components/ExtraActivities/ExtraActivities";
+import ExtraActivities2 from "../../components/ExtraActivities2/ExtraActivities";
 import FlexSection2 from "../../components/FlexSection2/FlexSection2";
 
 const Home = () => {
@@ -74,8 +75,12 @@ const Home = () => {
           <ExtraActivities />
         </div>
 
-        <div id="project2">
+        <div id="hackathon">
           <Projects2 />
+        </div>
+
+        <div id="committees">
+          <ExtraActivities2 />
         </div>
 
         <div

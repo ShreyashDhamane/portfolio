@@ -33,6 +33,24 @@ const Navbar = () => {
       subtitle: "Projects",
     },
     {
+      to: "/#extracurricular",
+      name: "Publications",
+      title: "Publications",
+      subtitle: "What I have published",
+    },
+    {
+      to: "/#hackathon",
+      name: "Hackathons",
+      title: "Hackathons",
+      subtitle: "What I have won",
+    },
+    {
+      to: "/#committees",
+      name: "Committees",
+      title: "Committees",
+      subtitle: "What I have Contributed",
+    },
+    {
       to: "/contact",
       name: "Contact",
       title: "Contact",
