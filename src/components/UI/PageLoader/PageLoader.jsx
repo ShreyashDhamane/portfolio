@@ -76,7 +76,7 @@ const PageLoader = () => {
               <div className="final_anim">A Computer Engineer</div>
             </div>
           ) : (
-            <div className={`logo ${pageLoading ? "loading" : ""}`}>N</div>
+            <div className={`logo ${pageLoading ? "loading" : ""}`}>S</div>
           )
         }
 
