@@ -3,68 +3,70 @@ import buycepsFav from "/public/assets/images/buycepsFav.png";
 import buyceps from "/public/assets/images/Buyceps.png";
 import studypaq from "/public/assets/images/studypaq.png";
 import studypaq2 from "/public/assets/images/studypaq2.png";
-import embodied from "/public/assets/images/embodied.png";
+import enactus from "/public/assets/images/enactus.png";
 import oculus from "/public/assets/images/oculus.png";
-import attention_span from "/public/assets/images/attention_span.png";
-import under_review from "/public/assets/images/under_review.png";
+import abhyudaya from "/public/assets/images/abhyudaya.png";
+import rotract from "/public/assets/images/rotract.png";
 
 export const experiences = [
   {
-    startDate: "May 2023",
-    endDate: "Present",
+    startDate: "October 2022",
+    endDate: "September 2023",
     company: "Oculus SPIT",
     role: "Technical Head",
-    type: "Academic Project",
+    type: "Academic Committee",
     images: [oculus],
     color: "#F5F5F5",
     workList: [
-      "Developing a human-less self-checkout store that eliminates the checkout counters and product barcode scanning by using object detection, image change detection, and person reidentification.",
-      "Devised an AI-based cooking planner, staff schedule organizer, and sales data analysis application using Facebook’s Prophet, Google OR tools, and Flutter.",
-      "Created a comprehensive Point of Sale (POS) system for self-food ordering and staff usage using JavaScript, integrated thermal printers and Viva card terminals for seamless self-checkout experiences.",
+      "Built an event management system for the college Techno Cultural Festival Oculus that managed around 400+ registrations.",
+      "Modeled database schemas and developed backend services along with integration with RazorPay.",
+      "Containerized and deployed the web app with Docker-Compose on Digital Ocean using GitHub Actions for CI/CD.",
     ],
   },
   {
-    startDate: "Jun 2022",
-    endDate: "May 2023",
+    startDate: "November 2022",
+    endDate: "September 2023",
     company: "Enactus SPIT",
-    role: "Research and Development Team Lead",
-    type: "Academic Project",
+    role: "Head of Event Development and Research",
+    type: "Academic Committee",
     favIcon: buycepsFav,
     color: "#6a6a6a",
-    images: [embodied],
+    images: [enactus],
     workList: [
-      "Engineered AI-based skin disease detection using Facebook’s Detectron, achieved 95%+ accuracy by training the model on Nvidia GPU systems. Deployed it on AWS Lambda and integrated it with the Flutter mobile app.",
-      "Implemented a Skin Type Indicator model utilizing Bauman Skin Type Indicator and ResNet-50’s resilient architecture and applied data engineering techniques to achieve over 88% accuracy.",
-      "Built a content-based recommendation system using Natural Language Processing, Skin Type, and Skin Disease Detection model to suggest suitable skin care products for treating specific skin conditions.",
-      "Led a team of 12 junior research interns, oversaw daily updates, resolved issues, performed project management, and provided regular updates to mentors.",
+      "Conducted a children's event inclusive of drawing, dance, and singing competitions for over 300 participants.",
+      "Organized a debate competition for 100+ students, fostering an exchange of ideas and perspectives.",
+      "Promoted bamboo products as a plastic alternative and executed various in-house college events such as AbhiMat, Epic, Blood Donation Drive, Unnati, and more.",
     ],
   },
   {
-    startDate: "August 2022",
-    endDate: "November 2022",
-    company: "Abhyudaya",
-    role: "Head of Volunteer Team",
-    type: "Academic Project",
+    startDate: "January 2022",
+    endDate: "December 2023",
+    company: "Rotract SPIT",
+    role: "Student Volunteer",
+    type: "Community Engagement",
     favIcon: studypaqFav,
     color: "#ecdab0",
-    images: [attention_span],
+    images: [rotract],
     workList: [
-      "Improved systolic and diastolic blood pressure detection model's accuracy from 72% to 96% using Random Forest and data engineering techniques.",
-      "Optimized fall detection model accuracy to 93% for the R&D team’s hardware, aiding elderly individuals living alone. Integrated the model with the Raspberry Pi controller.",
+      "Engaged in charitable initiatives, including mask, sanitizer, and food donation drives through the Rotaract Club of S.P.I.T.",
+      "Orchestrated and contributed to 'Food For Paws' event on February 12, 2023, at Malad, advocating for animal welfare and promoting responsible citizenship.",
+      "Collaborated with Saksharta Foundation on October 30th to support their PAD Project, facilitating the donation of sanitary pads to girls in grades 7th to 10th at Lokmanya Tilak Udyan Juhu.",
+      "Participated in a Beach Cleaning event at Dadar Beach on 24th September 2023 with RC SPIT, emphasizing environmental stewardship and raising awareness about plastic pollution impacts.",
     ],
   },
-  // {
-  //   startDate: "September 2021",
-  //   endDate: "December 2021",
-  //   company: "Skin Type Indicator",
-  //   role: "Research project",
-  //   type: "Research Internship",
-  //   favIcon: studypaqFav,
-  //   color: "#ecdab0",
-  //   images: [under_review],
-  //   workList: [
-  //     "Integrated the website with Node.js backend, managed software packaging using Pascal and released updates on AWS.",
-  //     "Worked on batch scripting, CICD task creation on Atlassian, and user interface implementation using SCSS.",
-  //   ],
-  // },
+  {
+    startDate: "July 2022",
+    endDate: "October 2022",
+    company: "Abhyudaya",
+    role: "Student Volunteer",
+    type: "Community Engagement",
+    favIcon: studypaqFav,
+    color: "#ecdab0",
+    images: [abhyudaya],
+    workList: [
+      "Played a significant role as a student assistant in multiple classes, actively engaging with underprivileged children and conducting specialized academic mathematical sessions for 12th standard students.",
+      "Exhibited dedication by efficiently completing essential tasks such as data filling and other administrative responsibilities, contributing to the smooth operation of Abhyudaya's initiatives for underprivileged children.",
+      "Actively participated in Abhyudaya's mission by providing mentoring and after-school enrichment activities, directly impacting the educational journey of underprivileged children in Mumbai.",
+    ],
+  },
 ];

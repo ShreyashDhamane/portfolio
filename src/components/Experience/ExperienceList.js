@@ -18,7 +18,7 @@ export const experiences = [
     images: [aicoms],
     color: "#F5F5F5",
     workList: [
-      "Developing a human-less self-checkout store that eliminates the checkout counters and product barcode scanning by using object detection, image change detection, and person reidentification.",
+      "Developed a human-less self-checkout store that eliminates the checkout counters and product barcode scanning by using object detection, image change detection, and person reidentification.",
       "Devised an AI-based cooking planner, staff schedule organizer, and sales data analysis application using Facebook’s Prophet, Google OR tools, and Flutter.",
       "Created a comprehensive Point of Sale (POS) system for self-food ordering and staff usage using JavaScript, integrated thermal printers and Viva card terminals for seamless self-checkout experiences.",
     ],
@@ -44,13 +44,14 @@ export const experiences = [
     endDate: "November 2022",
     company: "AutoBuddys",
     type: "Research Internship",
-    role: "Research Intern",
+    role: "Research Intern and Team Leader",
     favIcon: studypaqFav,
     color: "#ecdab0",
     images: [autobuddys],
     workList: [
       "Improved systolic and diastolic blood pressure detection model's accuracy from 72% to 96% using Random Forest and data engineering techniques.",
       "Optimized fall detection model accuracy to 93% for the R&D team’s hardware, aiding elderly individuals living alone. Integrated the model with the Raspberry Pi controller.",
+      "Led a team of 5 junior research interns in integrating machine learning models with hardware, developing Flutter applications, and integrating APIs with a Django backend.",
     ],
   },
   {

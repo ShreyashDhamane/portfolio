@@ -10,22 +10,22 @@ import under_review from "/public/assets/images/under_review.png";
 
 export const experiences = [
   {
-    startDate: "May 2023",
-    endDate: "Present",
+    startDate: "September 2022",
+    endDate: "December 2022",
     company: "Emotional Qoutient",
     role: "Research Project",
     type: "Academic Project",
     images: [emotional],
     color: "#F5F5F5",
     workList: [
-      "Developing a human-less self-checkout store that eliminates the checkout counters and product barcode scanning by using object detection, image change detection, and person reidentification.",
-      "Devised an AI-based cooking planner, staff schedule organizer, and sales data analysis application using Facebook’s Prophet, Google OR tools, and Flutter.",
-      "Created a comprehensive Point of Sale (POS) system for self-food ordering and staff usage using JavaScript, integrated thermal printers and Viva card terminals for seamless self-checkout experiences.",
+      "Established an AI-powered web platform for enhanced communication among people with diverse abilities, incorporating speech recognition tools for seamless website browsing and video calls.",
+      "Devised a hand sign detection model using LSTM with an impressive accuracy of 96%, enabling effective communication through sign language to text, text to speech, and speech to text.",
+      "Authored and published a paper, “Breaking Silence, Embracing Inclusivity: The Power of AI in Communication”, in the 2023 International Conference on Cybernetics, Cognition and Machine Learning Applications, IEEE Germany Section.",
     ],
   },
   {
-    startDate: "Jun 2022",
-    endDate: "May 2023",
+    startDate: "May 2022",
+    endDate: "August 2022",
     company: "Embodied Epistemology",
     role: "Research Project",
     type: "Academic Project",
@@ -33,15 +33,13 @@ export const experiences = [
     color: "#6a6a6a",
     images: [embodied],
     workList: [
-      "Engineered AI-based skin disease detection using Facebook’s Detectron, achieved 95%+ accuracy by training the model on Nvidia GPU systems. Deployed it on AWS Lambda and integrated it with the Flutter mobile app.",
-      "Implemented a Skin Type Indicator model utilizing Bauman Skin Type Indicator and ResNet-50’s resilient architecture and applied data engineering techniques to achieve over 88% accuracy.",
-      "Built a content-based recommendation system using Natural Language Processing, Skin Type, and Skin Disease Detection model to suggest suitable skin care products for treating specific skin conditions.",
-      "Led a team of 12 junior research interns, oversaw daily updates, resolved issues, performed project management, and provided regular updates to mentors.",
+      "Developed a novel document chatbot using Large Language Models, showcasing the potential of LangChain for creating engaging chatbots with applications in customer service, education, and research.",
+      "Authored and published a paper at the 2023 International Conference on Evolutionary Algorithms and Soft Computing Techniques, IEEE Bangalore Section.",
     ],
   },
   {
-    startDate: "August 2022",
-    endDate: "November 2022",
+    startDate: "January 2022",
+    endDate: "April 2022",
     company: "Attention Span of Autistic Children",
     role: "Research Project",
     type: "Academic Project",
@@ -49,8 +47,9 @@ export const experiences = [
     color: "#ecdab0",
     images: [attention_span],
     workList: [
-      "Improved systolic and diastolic blood pressure detection model's accuracy from 72% to 96% using Random Forest and data engineering techniques.",
-      "Optimized fall detection model accuracy to 93% for the R&D team’s hardware, aiding elderly individuals living alone. Integrated the model with the Raspberry Pi controller.",
+      "Engineered real-time attention spans detect for autistic children through head movement, background noise, game pauses or exits, and eye movements and blinking.",
+      "Integrated the model with the Flutter application and developed various mobile games to enhance the attention span of autistic children.",
+      "Co-authored and published a paper in the 2023 11th International Conference on Emerging Trends in Engineering & Technology - Signal and Information Processing, IEEE Bombay Section.",
     ],
   },
   // {

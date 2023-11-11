@@ -70,10 +70,10 @@ const PageLoader = () => {
                 })}
               </div>
               <div className="name_info_anim">
-                <div className="me_anim">I am,</div>
+                <div className="me_anim">I am</div>
                 <div className="name">Shreyash Dhamane</div>
               </div>
-              <div className="final_anim">I am a Computer Engineer</div>
+              <div className="final_anim">A Computer Engineer</div>
             </div>
           ) : (
             <div className={`logo ${pageLoading ? "loading" : ""}`}>N</div>

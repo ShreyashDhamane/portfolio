@@ -52,7 +52,7 @@
     }
 
     .desc {
-      width: 45rem;
+      width: 50rem;
       text-align: center;
       font-size: 2.2rem;
       line-height: 1.4;
@@ -62,5 +62,30 @@
         font-size: 1.6rem;
       }
     }
+  }
+  .icon_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .icon_wrapper svg:hover {
+    filter: invert(27%) sepia(51%) saturate(2878%);
+    transition: filter 0.3s;
+  }
+
+  .CustomLogo1 svg:hover {
+    filter: invert(100%) sepia(100%) saturate(100%) hue-rotate(180deg)
+      brightness(100%) contrast(100%);
+  }
+  .CustomLogo2 svg:hover {
+    filter: invert(22%) sepia(94%) saturate(4225%) hue-rotate(346deg)
+      brightness(97%) contrast(88%);
+  }
+
+  .CustomLogo3 svg:hover {
+    filter: invert(45%) sepia(75%) saturate(4545%) hue-rotate(108deg)
+      brightness(90%) contrast(85%);
   }
 }
