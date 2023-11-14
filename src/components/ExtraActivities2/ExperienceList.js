@@ -41,7 +41,7 @@ export const experiences = [
   {
     startDate: "January 2022",
     endDate: "December 2023",
-    company: "Rotract SPIT",
+    company: "Rotaract SPIT",
     role: "Student Volunteer",
     type: "Community Engagement",
     favIcon: studypaqFav,
