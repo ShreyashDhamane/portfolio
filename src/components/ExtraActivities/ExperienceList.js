@@ -18,9 +18,9 @@ export const experiences = [
     images: [emotional],
     color: "#F5F5F5",
     workList: [
-      "Established an AI-powered web platform for enhanced communication among people with diverse abilities, incorporating speech recognition tools for seamless website browsing and video calls.",
-      "Devised a hand sign detection model using LSTM with an impressive accuracy of 96%, enabling effective communication through sign language to text, text to speech, and speech to text.",
-      "Authored and published a paper, “Breaking Silence, Embracing Inclusivity: The Power of AI in Communication”, in the 2023 International Conference on Cybernetics, Cognition and Machine Learning Applications, IEEE Germany Section.",
+      "Created an AI-powered website using ReactJS for improved communication among people with diverse abilities. Incorporated speech recognition using an inbuilt JS tool for voice-based browsing and video calls.",
+      "Devised and integrated a hand sign detection model using LSTM with an impressive accuracy of 92%, enabling effective communication through sign language to text, text to speech, and speech to text.",
+      "Authored and published a paper, “Breaking Silence, Embracing Inclusivity”, in the 2023 International Conference on Cybernetics, Cognition and Machine Learning Applications, IEEE Germany Section.",
     ],
   },
   {
@@ -33,7 +33,7 @@ export const experiences = [
     color: "#6a6a6a",
     images: [embodied],
     workList: [
-      "Developed a novel document chatbot using Large Language Models, showcasing the potential of LangChain for creating engaging chatbots with applications in customer service, education, and research.",
+      "Researched and developed a document chatbot using LLM(Large Language Models) and Langchain, with accurate answers to questions. Integrated it with a Streamlit-based website.",
       "Authored and published a paper at the 2023 International Conference on Evolutionary Algorithms and Soft Computing Techniques, IEEE Bangalore Section.",
     ],
   },
@@ -47,23 +47,25 @@ export const experiences = [
     color: "#ecdab0",
     images: [attention_span],
     workList: [
-      "Engineered real-time attention spans detect for autistic children through head movement, background noise, game pauses or exits, and eye movements and blinking.",
-      "Integrated the model with the Flutter application and developed various mobile games to enhance the attention span of autistic children.",
+      "Engineered real-time model capable of analyzing attention spans in children through head movement, background noise, game pauses or exits, and eye movements and blinking using OpenCV’s classifiers.",
+      "Developed two games mainly designed to improve the attention span in Flutter.",
       "Co-authored and published a paper in the 2023 11th International Conference on Emerging Trends in Engineering & Technology - Signal and Information Processing, IEEE Bombay Section.",
     ],
   },
-  // {
-  //   startDate: "September 2021",
-  //   endDate: "December 2021",
-  //   company: "Skin Type Indicator",
-  //   role: "Research project",
-  //   type: "Research Internship",
-  //   favIcon: studypaqFav,
-  //   color: "#ecdab0",
-  //   images: [under_review],
-  //   workList: [
-  //     "Integrated the website with Node.js backend, managed software packaging using Pascal and released updates on AWS.",
-  //     "Worked on batch scripting, CICD task creation on Atlassian, and user interface implementation using SCSS.",
-  //   ],
-  // },
+  {
+    startDate: "September 2021",
+    endDate: "December 2021",
+    company: "Smart Traffic Signals",
+    role: "Research project",
+    type: "Research Internship",
+    favIcon: studypaqFav,
+    color: "#ecdab0",
+    images: [under_review],
+    workList: [
+      "Used the vehicle-annotated dataset of 1000+ images from Kaggle. Increased the dataset size by 30%.",
+      "Implemented YOLO2 for vehicle detection, achieving an accuracy of 89%.",
+      "Developed a time-efficient algorithm to calculate the green time for each lane dynamically based on factors like number of vehicles, average speed and more.",
+      "The Journal paper and thesis are currently in progress.",
+    ],
+  },
 ];
