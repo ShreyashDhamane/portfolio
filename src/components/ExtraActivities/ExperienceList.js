@@ -7,6 +7,7 @@ import embodied from "/public/assets/images/embodied.png";
 import emotional from "/public/assets/images/eqoutient.png";
 import attention_span from "/public/assets/images/attention_span.png";
 import under_review from "/public/assets/images/under_review.png";
+import accepted from "/public/assets/images/accepted.png";
 
 export const experiences = [
   {
@@ -55,6 +56,22 @@ export const experiences = [
   {
     startDate: "September 2021",
     endDate: "December 2021",
+    company: "Skin Type Indicators",
+    role: "Research Internship",
+    type: "Research Internship",
+    favIcon: studypaqFav,
+    color: "#ecdab0",
+    images: [accepted],
+    workList: [
+      "Researched various aspects of skin types, explored optimal human skin classification methods, and examined the  BSTI classification model.",
+      "Designed a unique Skin Type Classifier with 14 types.",
+      "Implemented the model using InceptionV3 and ResNet-50, achieving 84% and 80% accuracy, respectively.",
+      "Authored a paper accepted for presentation at the 2024 Springer International Conference on Multi-Strategy Learning Environment, scheduled for January 12, 2024. ",
+    ],
+  },
+  {
+    startDate: "August 2023",
+    endDate: "March 2024",
     company: "Smart Traffic Signals",
     role: "Research project",
     type: "Research Internship",
