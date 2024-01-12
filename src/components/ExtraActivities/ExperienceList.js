@@ -8,6 +8,7 @@ import emotional from "/public/assets/images/eqoutient.png";
 import attention_span from "/public/assets/images/attention_span.png";
 import under_review from "/public/assets/images/under_review.png";
 import accepted from "/public/assets/images/accepted.png";
+import bstiPaper from "/public/assets/images/bstiPaper.png";
 
 export const experiences = [
   {
@@ -61,7 +62,7 @@ export const experiences = [
     type: "Research Internship",
     favIcon: studypaqFav,
     color: "#ecdab0",
-    images: [accepted],
+    images: [bstiPaper],
     workList: [
       "Researched various aspects of skin types, explored optimal human skin classification methods, and examined the  BSTI classification model.",
       "Designed a unique Skin Type Classifier with 14 types.",
