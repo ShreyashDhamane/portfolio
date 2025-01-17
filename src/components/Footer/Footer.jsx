@@ -14,7 +14,7 @@ const Footer = () => {
             <div className="text">Together</div>
           </div>
           <div className="contact_info">
-            <div className="contact_item">+91 7977082238</div>
+            <div className="contact_item">+1 7183145488</div>
             <div className="contact_item">shreyashb.dhamane0@gmail.com</div>
           </div>
         </div>
