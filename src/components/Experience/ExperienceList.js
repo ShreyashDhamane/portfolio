@@ -16,9 +16,9 @@ export const experiences = [
     color: "#F5F5F5",
     workList: [
       "Built a sales and management system using React and Flutter, saving $3,000/year and 10 hours/week",
-      "• Integrated Viva payment terminals and webhooks for processing payments exceeding 5 million euros",
+      "Integrated Viva payment terminals and webhooks for processing payments exceeding 5 million euros",
       "Implemented the entire modularized Node.js backend with CI/CD and mutex locks for data consistency",
-      "• Developed efficient custom algorithms for shift scheduling and inventory management, saving 15 hours/week",
+      "Developed efficient custom algorithms for shift scheduling and inventory management, saving 15 hours/week",
     ],
   },
   {
