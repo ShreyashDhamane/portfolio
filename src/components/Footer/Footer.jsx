@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="bottom_group">
           <div className="bottom_item">
             <div className="helper">Version</div>
-            <div className="info">2023©Edition</div>
+            <div className="info">2025©Edition</div>
           </div>
           {/* <div className="bottom_item">
                             <div className="helper">Local Time</div>
