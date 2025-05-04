@@ -1,14 +1,21 @@
 import studypaqFav from "/public/assets/images/studypaqFav.svg";
 import buycepsFav from "/public/assets/images/buycepsFav.png";
-import buyceps from "/public/assets/images/Buyceps.png";
-import studypaq from "/public/assets/images/studypaq.png";
-import studypaq2 from "/public/assets/images/studypaq2.png";
 import aim4u from "/public/assets/images/aim4u.png";
 import aicoms from "/public/assets/images/aicoms.png";
 import autobuddys from "/public/assets/images/autobuddys.png";
 import smowcode from "/public/assets/images/smowcode.png";
-
+import tesla from "/public/assets/images/tesla.gif";
 export const experiences = [
+  {
+    startDate: "May 2025",
+    endDate: "August 2025",
+    company: "Tesla",
+    role: "SDE Intern",
+    type: "Internship",
+    images: [tesla],
+    color: "#F5F5F5",
+    workList: ["Just started the internship, no details available yet."],
+  },
   {
     startDate: "May 2023",
     endDate: "May 2024",
