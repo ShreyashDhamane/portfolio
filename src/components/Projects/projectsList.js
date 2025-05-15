@@ -1,8 +1,8 @@
 import p1 from "/public/assets/images/project/p1.jpg";
 import p2 from "/public/assets/images/project/p2.jpg";
 import p3 from "/public/assets/images/project/p3.jpg";
-import p4 from "/public/assets/images/project/p4.jpg";
-import p5 from "/public/assets/images/project/p5.jpg";
+import p4 from "/public/assets/images/project/p4.png";
+import p5 from "/public/assets/images/project/p5.png";
 export const projects = [
   {
     title: "Nightwalkers",
