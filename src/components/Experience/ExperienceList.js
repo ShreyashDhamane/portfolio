@@ -16,7 +16,7 @@ export const experiences = [
     color: "#F5F5F5",
     workList: ["Built a desktop application using React, TypeScript, Tailwind, FastAPI and Go (Wails), used daily by 2K+ employees",
       "Designed a high-throughput time-series dashboard using React, uPlot, Tailwind, FastAPI and Prometheus",
-      "Maintained and added 10+ features to an internal chatbot ecosystem, handling 1.5M+ requests per day",
+      "Maintained and added 10+ features to an internal LLM ecosystem, handling 1.5M+ requests per day",
       "Led 7 user interviews to validate and refine Figma UI designs, enhancing UX through real user insights",
       "Member of the intern event planning committee; organized an intern potluck and a Jeopardy game"],
   },
