@@ -14,7 +14,11 @@ export const experiences = [
     type: "Internship",
     images: [tesla],
     color: "#F5F5F5",
-    workList: ["Just started the internship, no details available yet."],
+    workList: ["Built a desktop application using React, TypeScript, Tailwind, FastAPI and Go (Wails), used daily by 2K+ employees",
+      "Designed a high-throughput time-series dashboard using React, uPlot, Tailwind, FastAPI and Prometheus",
+      "Maintained and added 10+ features to an internal chatbot ecosystem, handling 1.5M+ requests per day",
+      "Led 7 user interviews to validate and refine Figma UI designs, enhancing UX through real user insights",
+      "Member of the intern event planning committee; organized an intern potluck and a Jeopardy game"],
   },
   {
     startDate: "May 2023",
@@ -26,9 +30,9 @@ export const experiences = [
     color: "#F5F5F5",
     workList: [
       "Built a sales and management system using React and Flutter, saving $3,000/year and 10 hours/week",
-      "• Integrated Viva payment terminals and webhooks for processing payments exceeding 5 million euros",
+      "Integrated Viva payment terminals and webhooks for processing payments exceeding 5 million euros",
       "Implemented the entire modularized Node.js backend with CI/CD and mutex locks for data consistency",
-      "• Developed efficient custom algorithms for shift scheduling and inventory management, saving 15 hours/week",
+      "Developed efficient custom algorithms for shift scheduling and inventory management, saving 15 hours/week",
     ],
   },
   {
